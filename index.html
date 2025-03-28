@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хөвдөг хөөрөг</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        
+            <ul class="sidebar">
+                <li class="menu-button2" onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                
+                <li><a href="index.html">Нүүр</a></li>
+                <li><a href="Sb.html">Сонирхолтой баримт</a></li>
+                <li><a href="ub.html">Уран бүтээл</a></li>
+                <li><a href="ah.html">Холбоо барих</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="#">Хөвдөг хөөрөг</a></li>
+                <li class="hideOnMobile"><a href="index.html">Нүүр</a></li>
+                <li class="hideOnMobile"><a href="Sb.html">Сонирхолтой баримт</a></li>
+                <li class="hideOnMobile"><a href="ub.html">Уран бүтээл</a></li>
+                <li class="hideOnMobile"><a href="ah.html">Холбоо барих</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+       
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+
+<!-- 2 heseg -->
+<section class="home" id="home">
+    <div class="home-content fade-in">
+        <h1>Хөвдөг<span> Хөөрөг</span></h1>
+        <h3 class="text-animation fade-in">Хөөрөг бол <span>
+
+        </span></h3>
+        <p class="fade-in">Хөөрөг нь Монголын уламжлалт соёлын
+             нэгэн чухал эдлэл бөгөөд тамхи хийх
+              зориулалттай жижиг сав юм. Ихэвчлэн байгалийн үнэт болон 
+              ховор чулуугаар хийдэг бөгөөд зөвхөн хэрэглээний бус, хүндэтгэл,
+               бэлгэдлийн чухал ач холбогдолтой зүйл юм.</p>
+
+
+        <div class="socail-icons fade-in">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-threads"></i></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="zhsh.html" class="btn fade-in">Захиалга шалгах</a>
+            <a href="zho.html" class="btn fade-in">Захиалга өгөх</a>
+        </div>
+    </div>
+
+
+
+        <div class="home-img">
+            <img class="fade-in" src="IMAGE/background-removebg-preview.png">
+        </div>
+    
+
+</section>
+
+
+<script src="js/mend.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хөвдөг хөөрөг - Уран бүтээл</title>
+    <link rel="stylesheet" href="css/ub.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                
+                <li><a href="index.html">Нүүр</a></li>
+                <li><a href="Sb.html">Сонирхолтой баримт</a></li>
+                <li><a href="ub.html">Уран бүтээл</a></li>
+                <li><a href="ah.html">Холбоо барих</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="#">Хөвдөг хөөрөг</a></li>
+                <li class="hideOnMobile"><a href="index.html">Нүүр</a></li>
+                <li class="hideOnMobile"><a href="Sb.html">Сонирхолтой баримт</a></li>
+                <li class="hideOnMobile"><a href="ub.html">Уран бүтээл</a></li>
+                <li class="hideOnMobile"><a href="ah.html">Холбоо барих</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <!-- 2heseg -->
+
+    <input type="radio" name="Photos" id="check1" checked>
+      <input type="radio" name="Photos" id="check2">
+      <input type="radio" name="Photos" id="check3">
+      <input type="radio" name="Photos" id="check4">
+
+      <div class="container">
+        <h1 class="fade-in">Уран бүтээлийн хэсэг</h1>
+
+        
+       
+
+        <div class="top-content fade-in">
+            <h3>Photo Gallery</h3>
+            <label for="check1">Бүх зураг</label>
+            <label class="menu" for="check2">Хөөрөг</label>
+            <label class="menu" for="check3">Сийлбэр</label>
+            <label class="menu" for="check4">Чулуу</label>
+        </div>
+
+
+  
+
+        <div class="photo-gallery fade-in">
+            <div class="pic place">
+                <img src="image/chuluu.jpg">
+            </div>
+           
+           
+            <div class="pic place fade-in">
+                <img src="image/chuluu2.jpg">
+            </div>
+           
+            <div class="pic place fade-in">
+                <img src="image/chuluu3.jpg">
+            </div>
+            
+            
+
+            <div class="pic hoorog fade-in">
+                <img src="image/1.jpg">
+            </div>
+            <div class="pic hoorog fade-in">
+                <img src="image/2.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/3.jpg">
+            </div>
+           
+            <div class="pic hoorog fade-in">
+                <img src="image/4.jpg">
+            </div>
+            
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/5.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/6.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/7.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/8.jpg">
+            </div>
+           
+            <div class="pic hoorog fade-in">
+                <img src="image/9.jpg">
+            </div>
+           
+            <div class="pic hoorog fade-in">
+                <img src="image/10.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/11.jpg">
+            </div>
+            
+            <div class="pic hoorog fade-in">
+                <img src="image/12.jpg">
+            </div>
+            <div class="pic hoorog fade-in">
+                <img src="image/13.jpg">
+            </div>
+            <div class="pic hoorog fade-in">
+                <img src="image/14.jpg">
+            </div>
+
+            <div class="pic siilber fade-in">
+                <img src="image/a.jfif">
+            </div>
+            <div class="pic siilber fade-in">
+                <img src="image/b.jfif">
+            </div>
+            <div class="pic siilber fade-in">
+                <img src="image/c.jfif">
+            </div>
+            <div class="pic siilber fade-in">
+                <img src="image/d.jfif">
+            </div>
+            <div class="pic siilber fade-in">
+                <img src="image/g.jfif">
+            </div>
+            <div class="pic siilber fade-in">
+                <img src="image/i.jfif">
+            </div>
+        </div>
+        
+      </div>
+      
+
+
+      <script src="js/ub.js"></script>
+</body>
+</html>
